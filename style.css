@@ -116,6 +116,12 @@ header .subtitle {
   letter-spacing: 0.08em;
 }
 
+.related-item + .related-item {
+  margin-top: 1.8rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid var(--muted);
+}
+
 .contact h3 {
   font-size: 1rem;
   font-weight: 600;
